@@ -3,11 +3,12 @@ require("dotenv").config();
 const config = {
     development: {
         host: "localhost",
-        user: "root",
+        username: "root",
         password: process.env.DATABASE_PASSWORD,
         database: "cupcake",
         provider: "ws://127.0.0.1:7545",
         contractAddr: process.env.CONTRACT_ADDRESS,
+        dialect: "mysql",
     },
     test: {
         host: "localhost",
@@ -16,6 +17,7 @@ const config = {
         database: "cupcake_test",
         database: "ws://127.0.0.1:7545",
         contractAddr: process.env.CONTRACT_ADDRESS,
+        dialect: "mysql",
     },
 };
 
