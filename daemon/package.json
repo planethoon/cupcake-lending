@@ -1,0 +1,17 @@
+{
+  "name": "cupcake-lending-daemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.15.0",
+    "web3": "^1.7.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
